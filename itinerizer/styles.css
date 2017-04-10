@@ -1,0 +1,41 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+#logo {
+  margin-left: 469px;
+}
+
+#nav-register {
+  margin-right: 476px
+}
+
+#jumbotron {
+  background-image: url('./images/friends.jpeg');
+  background-size: cover;
+  height: 630px;
+}
+
+.jumbotron .container {
+  max-width: 100%;
+  margin-top: 5%;
+}
+
+.container h1 {
+  margin-bottom: 40px;
+  position: relative;
+  bottom: 5px;
+
+}
+
+.row .col-sm-6 img {
+  height: 340px;
+  margin-left: 15%;
+}
+
+.col-sm-6 ul li {
+  font-size: 25px;
+  font-weight: 400;
+  list-style: none;
+  margin-top: 90px;
+}
