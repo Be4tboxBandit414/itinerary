@@ -1,45 +1,51 @@
-/* line 1, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/* line 5, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 9, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .navbar {
   margin-bottom: 0;
 }
 
-/* line 5, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 13, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #logo {
   margin-left: 469px;
 }
 
-/* line 9, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 17, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #nav-register {
   margin-right: 476px;
 }
 
-/* line 13, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 21, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .jumbotron {
   background-image: url("../images/friends.jpeg");
   background-size: cover;
   height: 630px;
 }
 
-/* line 17, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 25, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .jumbotron .container {
   max-width: 100%;
   margin-top: 5%;
 }
 
-/* line 23, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 31, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .container h1 {
   margin-bottom: 40px;
   position: relative;
   bottom: 5px;
 }
 
-/* line 30, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 38, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .row .col-sm-6 img {
   height: 340px;
   margin-left: 15%;
 }
 
-/* line 35, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 43, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .col-sm-6 ul li {
   font-size: 25px;
   font-weight: 400;
@@ -47,21 +53,21 @@
   margin-top: 90px;
 }
 
-/* line 42, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 50, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 footer div ul {
   margin-left: 30%;
   margin-top: 150px;
   margin-bottom: 40px;
 }
 
-/* line 46, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 54, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 footer div ul li {
   list-style: none;
   display: inline;
   margin: 15px;
 }
 
-/* line 55, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 63, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #login-dp {
   min-width: 250px;
   padding: 14px 14px 0;
@@ -69,12 +75,12 @@ footer div ul li {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 60, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 68, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #login-dp .help-block {
   font-size: 12px;
 }
 
-/* line 63, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 71, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
   border-top: 1px solid #ddd;
@@ -82,52 +88,52 @@ footer div ul li {
   padding: 14px;
 }
 
-/* line 69, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 77, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #login-dp .social-buttons {
   margin: 12px 0;
 }
 
-/* line 72, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 80, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #login-dp .social-buttons a {
   width: 49%;
 }
 
-/* line 75, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 83, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 #login-dp .form-group {
   margin-bottom: 10px;
 }
 
-/* line 80, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 88, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .btn-fb {
   color: #fff;
   background-color: #3b5998;
 }
 
-/* line 83, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 91, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .btn-fb:hover {
   color: #fff;
   background-color: #496ebc;
 }
 
-/* line 89, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 97, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .btn-tw {
   color: #fff;
   background-color: #55acee;
 }
 
-/* line 92, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+/* line 100, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
 .btn-tw:hover {
   color: #fff;
   background-color: #59b5fa;
 }
 
 @media (max-width: 768px) {
-  /* line 99, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+  /* line 107, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
   #login-dp {
     background-color: inherit;
     color: #fff;
   }
-  /* line 102, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
+  /* line 110, /Users/stnguyen/Desktop/itinerary/itinerizer/sass/styles.scss */
   #login-dp .bottom {
     background-color: inherit;
     border-top: 0 none;
