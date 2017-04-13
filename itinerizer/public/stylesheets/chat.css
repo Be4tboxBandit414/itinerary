@@ -21,7 +21,7 @@ form input {
   margin: 0;
   padding: 0;
  }
-#messages strong { 
+#messages li {
   padding: 5px 10px;
 }
 /*#messages li:nth-child(odd) { background: blue; }*/

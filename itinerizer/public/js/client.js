@@ -10,6 +10,6 @@ $(function() {
       return false;
   });
       socket.on('new message', function(msg){
-     $('#messages').append($('<strong>').text(msg));
+     $('#messages').append($('<li>').text(msg));
    });
 });
