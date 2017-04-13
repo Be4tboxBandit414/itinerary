@@ -1,26 +1,19 @@
 var express = require('express');
-var app = express();
+var app = require("express")();
 var http = require("http").Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
 
-var chatPath = path.join(__dirname, '../public/chat.html');
-var landingPath = path.join(__dirname, '../public/index.html');
+var chatPath = path.join(__dirname, '../chat.html');
 
-// Middleware
-app.use(express.static('public'));
 
 // Route to chat
-app.get('/', function(req, res) {
-  res.sendFile(landingPath);
-});
-
 app.get('/chat', function(req, res) {
   res.sendFile(chatPath);
 });
 
-
-
+app.use(express.static(path.join(__dirname, '../css')));
+app.use(express.static(path.join(__dirname, '../js')));
 
 // On connection...
 io.on('connect', function(socket){
@@ -32,6 +25,6 @@ io.on('connect', function(socket){
 });
 
 // Server listening on localhost:3000
-app.listen(3000, function(){
+http.listen(3000, function(){
   console.log('listening on port: 3000');
 });
