@@ -4,16 +4,22 @@ var http = require("http").Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
 
-var chatPath = path.join(__dirname, '../chat.html');
 
+
+// Middleware
+
+app.use(express.static('public'));
 
 // Route to chat
 app.get('/chat', function(req, res) {
-  res.sendFile(chatPath);
+  res.sendFile(__dirname + '/public/chat.html');
 });
 
-// Middleware
-app.use('/chat', express.static(path.join(__dirname + '../public')));
+app.get('/', function(req, res) {
+  res.sendFile(__dirname + '/public/index.html');
+});
+
+
 
 // On connection...
 io.on('connect', function(socket){
