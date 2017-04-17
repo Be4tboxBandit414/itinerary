@@ -3,7 +3,7 @@ var app = require("express")();
 var http = require("http").Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
-
+var moment = require('moment')();
 
 
 // Middleware
@@ -25,7 +25,7 @@ app.get('/', function(req, res) {
 io.on('connect', function(socket){
   console.log("LET'S GO!");
   socket.on('new message', function(msg){
-    console.log('message is ' + msg);
+    console.log('message is ' + msg + " ");
     io.emit('new message', msg);
   });
 });
