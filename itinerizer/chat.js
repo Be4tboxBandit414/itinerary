@@ -30,7 +30,13 @@ io.on('connect', function(socket){
   });
 });
 
-// Server listening on localhost:3000
-http.listen(3000, function(){
-  console.log('listening on port: 3000');
+// Server listening on envirenment or localhost:3000
+http.listen(process.env.PORT || 3000, function(){
+  if (http.listen(process.env.PORT)) {
+    console.log("Listening on Process Envirenment Port");
+  } else if (http.listen(3000)) {
+    console.log('Listening on port: 3000');
+  } else {
+    console.log("Error");
+  }
 });
