@@ -19,6 +19,10 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });
 
+app.get('/register', function(req, res) {
+  res.sendFile(__dirname + '/public/registration.html');
+});
+
 
 
 // On connection...
