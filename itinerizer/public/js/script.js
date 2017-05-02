@@ -2,7 +2,7 @@
 $(function() {
   // Initialize form validation on the Sign In form.
   // It has the name attribute "signIn"
-  $("form[name='signIn']").validate({
+  $("form[name='signIn'], form[name='registration']").validate({
     // Specify validation rules
     rules: {
       email: {
