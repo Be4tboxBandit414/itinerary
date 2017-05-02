@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/* Color settings */
+/* Styles */
+/* line 14, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 19, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+/* line 24, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+.container {
+  width: 500px;
+  margin: 25px auto;
+}
+
+/* line 29, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+form {
+  padding: 20px;
+  background: #2c3e50;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 35, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+form label,
+form input,
+form button {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}
+
+/* line 43, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+form input {
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 51, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+form button {
+  height: 30px;
+  line-height: 30px;
+  background: #e67e22;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* line 59, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/registration.scss */
+form .error {
+  color: #ff0000;
+}
+
+/*# sourceMappingURL=../stylesheets/registration.map */
