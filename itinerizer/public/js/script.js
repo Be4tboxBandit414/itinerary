@@ -5,6 +5,8 @@ $(function() {
   $("form[name='signIn'], form[name='registration']").validate({
     // Specify validation rules
     rules: {
+      firstname: "required",
+      lastname: "required",
       email: {
         required: true,
         email: true
