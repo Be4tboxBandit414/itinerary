@@ -4,6 +4,7 @@ var http = require("http").Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
 var moment = require('moment')();
+var port = process.env.PORT || 3000;
 
 
 // Middleware
@@ -35,7 +36,7 @@ io.on('connect', function(socket){
 });
 
 // Server listening on envirenment or localhost:3000
-http.listen(process.env.PORT || 3000, function(){
+http.listen(port, function(){
   if (http.listen(process.env.PORT)) {
     console.log("Listening on Process Envirenment Port");
   } else if (http.listen(3000)) {
