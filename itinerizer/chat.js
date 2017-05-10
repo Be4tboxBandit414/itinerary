@@ -1,3 +1,4 @@
+// Variables
 var express = require('express');
 var app = require("express")();
 var http = require("http").Server(app);
@@ -9,22 +10,12 @@ var port = process.env.PORT || 3000;
 
 // Middleware
 
-app.use(express.static('public'));
+app.use(express.static('public')); // set up static css and js
+app.set('view engine', 'ejs'); // set up ejs for templating
 
 // Route to chat
-app.get('/chat', function(req, res) {
-  res.sendFile(__dirname + '/public/chat.html');
-});
 
-app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/public/index.html');
-});
-
-app.get('/register', function(req, res) {
-  res.sendFile(__dirname + '/public/registration.html');
-});
-
-
+require('./public/js/routes.js')(app);
 
 // On connection...
 io.on('connect', function(socket){
