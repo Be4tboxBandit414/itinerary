@@ -13,7 +13,7 @@ var port = process.env.PORT || 3000;
 app.use(express.static('public')); // set up static css and js
 app.set('view engine', 'ejs'); // set up ejs for templating
 
-// Route to chat
+// Routes
 
 require('./public/js/routes.js')(app);
 
