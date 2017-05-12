@@ -21,7 +21,7 @@ body {
 
 /* line 21, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .jumbotron {
-  background-image: url("../images/friends.jpeg");
+  background-image: url("../images/together.jpg");
   background-size: cover;
   height: 630px;
 }
@@ -37,15 +37,16 @@ body {
   margin-bottom: 40px;
   position: relative;
   bottom: 5px;
+  color: lightgrey;
 }
 
-/* line 38, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 39, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .row .col-sm-6 img {
   height: 340px;
   margin-left: 15%;
 }
 
-/* line 43, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 44, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .col-sm-6 ul li {
   font-size: 25px;
   font-weight: 400;
@@ -53,21 +54,21 @@ body {
   margin-top: 90px;
 }
 
-/* line 50, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 51, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 footer div ul {
   margin-left: 30%;
   margin-top: 150px;
   margin-bottom: 40px;
 }
 
-/* line 54, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 55, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 footer div ul li {
   list-style: none;
   display: inline;
   margin: 15px;
 }
 
-/* line 63, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 64, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 #login-dp {
   min-width: 250px;
   padding: 14px 14px 0;
@@ -75,12 +76,12 @@ footer div ul li {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 68, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 69, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 #login-dp .help-block {
   font-size: 12px;
 }
 
-/* line 71, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 72, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
   border-top: 1px solid #ddd;
@@ -88,57 +89,57 @@ footer div ul li {
   padding: 14px;
 }
 
-/* line 77, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 78, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 #login-dp .social-buttons {
   margin: 12px 0;
 }
 
-/* line 80, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 81, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 #login-dp .social-buttons a {
   width: 49%;
 }
 
-/* line 83, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 84, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 #login-dp .form-group {
   margin-bottom: 10px;
 }
 
-/* line 88, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 89, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .btn-fb {
   color: #fff;
   background-color: #3b5998;
 }
 
-/* line 91, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 92, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .btn-fb:hover {
   color: #fff;
   background-color: #496ebc;
 }
 
-/* line 97, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 98, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .btn-tw {
   color: #fff;
   background-color: #55acee;
 }
 
-/* line 100, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 101, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .btn-tw:hover {
   color: #fff;
   background-color: #59b5fa;
 }
 
-/* line 106, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+/* line 107, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
 .error {
   color: red;
 }
 
 @media (max-width: 768px) {
-  /* line 111, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+  /* line 112, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
   #login-dp {
     background-color: inherit;
     color: #fff;
   }
-  /* line 114, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
+  /* line 115, /Users/stnguyen/Desktop/itinerary/itinerizer/public/sass/styles.scss */
   #login-dp .bottom {
     background-color: inherit;
     border-top: 0 none;
