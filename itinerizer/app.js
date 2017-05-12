@@ -7,6 +7,8 @@ var path = require('path');
 var moment = require('moment')();
 var port = process.env.PORT || 3000;
 
+var router = require('./public/js/routes.js');
+
 
 // Middleware
 
@@ -15,7 +17,7 @@ app.set('view engine', 'ejs'); // set up ejs for templating
 
 // Routes
 
-require('./public/js/routes.js')(app);
+router(app);
 
 // On connection...
 io.on('connect', function(socket){
