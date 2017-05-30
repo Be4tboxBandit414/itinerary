@@ -20,16 +20,16 @@ app.set('view engine', 'ejs'); // set up ejs for templating
 router(app);
 
 // On connection...
-io.on('connect', function(socket){
+io.on('connect', function(socket) {
   console.log("LET'S GO!");
-  socket.on('new message', function(msg){
+  socket.on('new message', function(msg) {
     console.log('message is ' + msg + " ");
     io.emit('new message', msg);
   });
 });
 
 // Server listening on envirenment or localhost:3000
-http.listen(port, function(){
+http.listen(port, function() {
   if (http.listen(process.env.PORT)) {
     console.log("Listening on Process Envirenment Port");
   } else if (http.listen(3000)) {

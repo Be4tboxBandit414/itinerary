@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Itinerizer</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js" charset="utf-8"></script>
 
-    <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Itinerizer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js" charset="utf-8"></script>
 
-  </head>
-  <body>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
+
+</head>
+
+<body>
   <header>
     <nav class="navbar navbar-default navbar-inverse" role="navigation">
       <div class="container-fluid">
@@ -29,97 +31,102 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
 
-          <ul class="nav navbar-nav navbar-right" id="nav-register">
-            <li><a href="/chat">Chat</a></li>
-            <li><a href="/register">Register</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
-            		 <ul id="login-dp" class="dropdown-menu">
-            				<li>
-            					 <div class="row">
-                  				<div class="col-md-12">
-                  					Login via
-                  					<div class="social-buttons">
-                  						<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-                  						<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
-                  					</div>
-                                          or
-          								 <form class="form" name="signIn"role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
-            										<div class="form-group">
-            											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
-            											 <input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="Email address" required>
-            										</div>
-          										<div class="form-group">
-          											 <label class="sr-only" for="exampleInputPassword2">Password</label>
-          											 <input type="password" class="form-control" id="exampleInputPassword2" name="password" placeholder="Password" required>
-                                 <div class="help-block text-right"><a href="">Forget the password ?</a></div>
-          										</div>
-          										<div class="form-group">
-          											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-          										</div>
-          										<div class="checkbox">
-          											 <label>
+        <ul class="nav navbar-nav navbar-right" id="nav-register">
+          <li><a href="/chat">Chat</a></li>
+          <li><a href="/register">Register</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+            <ul id="login-dp" class="dropdown-menu">
+              <li>
+                <div class="row">
+                  <div class="col-md-12">
+                    Login via
+                    <div class="social-buttons">
+                      <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                      <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                    </div>
+                    or
+                    <form class="form" name="signIn" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="Email address" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword2">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" name="password" placeholder="Password" required>
+                        <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                      </div>
+                      <div class="checkbox">
+                        <label>
           											 <input type="checkbox"> keep me logged-in
           											 </label>
-          										</div>
-          								 </form>
-          							</div>
-        							<div class="bottom text-center">
-        								New here? <a href="#"><b>Join Us</b></a>
-        							</div>
-        					 </div>
-        				</li>
-        			</ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+                      </div>
+                    </form>
+                  </div>
+                  <div class="bottom text-center">
+                    New here? <a href="#"><b>Join Us</b></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
     </nav>
   </header>
 
-    <div class="jumbotron">
-        <div class="container text-center">
-            <h1>Best Way to <br> Collaborate and Go!</h1>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Let's Go!</a>
-        </div>
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Best Way to <br> Collaborate and Go!</h1>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Let's Go!</a>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="./images/phone.jpg" alt="phone"></img>
-      </div>
-      <div class="col-sm-6">
-        <ul>
-          <li>Venison cow sunt eu ad nisi adipisicing consectetur elit pork ham hock cupidatat. Bresaola jerky leberkas flank.   Frankfurter pork chop qui cow, alcatra t-bone bacon short loin in velit. Drumstick prosciutto aute bacon cupim elit filet mignon doner strip steak hamburger.
-          </li>
-        </ul>
-      </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="./images/phone.jpg" alt="phone"></img>
     </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <ul>
-          <li>Venison cow sunt eu ad nisi adipisicing consectetur elit pork ham hock cupidatat. Bresaola jerky leberkas flank.   Frankfurter pork chop qui cow, alcatra t-bone bacon short loin in velit. Drumstick prosciutto aute bacon cupim elit filet mignon doner strip steak hamburger.
-          </li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <img src="./images/girl.jpg" alt="friends">
-      </div>
+    <div class="col-sm-6">
+      <ul>
+        <li>Venison cow sunt eu ad nisi adipisicing consectetur elit pork ham hock cupidatat. Bresaola jerky leberkas flank. Frankfurter pork chop qui cow, alcatra t-bone bacon short loin in velit. Drumstick prosciutto aute bacon cupim elit filet mignon doner
+          strip steak hamburger.
+        </li>
+      </ul>
     </div>
+  </div>
 
-    <footer>
-      <div class="container-fluid">
-        <ul>
-          <li><a href="#">Download</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy</a></li>
-        </ul>
-      </div>
-    </footer>
+  <div class="row">
+    <div class="col-sm-6">
+      <ul>
+        <li>Venison cow sunt eu ad nisi adipisicing consectetur elit pork ham hock cupidatat. Bresaola jerky leberkas flank. Frankfurter pork chop qui cow, alcatra t-bone bacon short loin in velit. Drumstick prosciutto aute bacon cupim elit filet mignon doner
+          strip steak hamburger.
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <img src="./images/girl.jpg" alt="friends">
+    </div>
+  </div>
 
-<script src="./js/script.js"></script>
-  </body>
+  <footer>
+    <div class="container-fluid">
+      <ul>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
 </html>

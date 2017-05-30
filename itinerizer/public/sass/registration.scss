@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "compass";
-
 /* Color settings */
 $formBg: #2c3e50;
 $formColor: #fff;
@@ -9,7 +8,6 @@ $inputColor: #000;
 $buttonBg: #e67e22;
 $buttonColor: #fff;
 $errorMsgColor: #ff0000;
-
 /* Styles */
 * {
   margin: 0;
@@ -32,14 +30,15 @@ form {
   color: $formColor;
   @include border-radius(4px);
 
-  label,
+  button,
   input,
-  button {
+  label {
     border: 0;
     margin-bottom: 3px;
     display: block;
     width: 100%;
   }
+
   input {
     height: 25px;
     line-height: 25px;
@@ -48,6 +47,7 @@ form {
     padding: 0 6px;
     @include box-sizing(border-box);
   }
+
   button {
     height: 30px;
     line-height: 30px;
@@ -56,6 +56,7 @@ form {
     margin-top: 10px;
     cursor: pointer;
   }
+
   .error {
     color: $errorMsgColor;
   }
